@@ -1,0 +1,2 @@
+python train.py --surrogate inception_v3 --target_layer Mixed_7c --save_dir ./weights --save_name default
+python test.py --surrogate inception_v3 --target_layer Mixed_7c --load_dir ./weights --load_name default
